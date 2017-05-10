@@ -1,6 +1,6 @@
 {
   "name": "v-reset-input",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Reset input directive for Vue.js",
   "author": "Daniel Fernando Lourusso <daniel@dflourusso.com.br>",
   "main": "dist/v-reset-input.js",
