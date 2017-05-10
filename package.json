@@ -1,0 +1,30 @@
+{
+  "name": "v-reset-input",
+  "version": "0.0.1",
+  "description": "Reset input directive for Vue.js",
+  "author": "Daniel Fernando Lourusso <daniel@dflourusso.com.br>",
+  "main": "dist/v-reset-input.js",
+  "license": "MIT",
+  "scripts": {
+    "dist": "vue build ./src/v-reset-input.js --config ./build.config.js --dist ./dist/ --prod --lib",
+    "dist:demo": "vue build ./demo/index.js --config ./demo/build.config.js --dist ./docs/ --prod",
+    "build": "npm run dist -- --disable-compress",
+    "start": "npm run dev",
+    "dev": "vue build ./demo/index.js --config ./demo/build.config.js",
+    "demo:open": "open 'http://localhost:3000/'; serve ./demo/"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "vue",
+    "reset",
+    "reset-input",
+    "vue-reset",
+    "vue-reset-input",
+    "reset-vue",
+    "reset-input-vue",
+    "v-reset",
+    "v-reset-input"
+  ]
+}
