@@ -32,4 +32,11 @@ export default {
   width 100%
   outline none
   background-color #eee
+.v-reset-input
+  top 8px
+  right 25px
+  font-size 1.5em
+  display none
+  &.v-reset-input-active
+    display block
 </style>
