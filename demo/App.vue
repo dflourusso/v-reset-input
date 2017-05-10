@@ -10,8 +10,9 @@ div(style="text-align: center;")
 
 <script>
 import Vue from 'vue'
+
 import ResetInput from '../src/ResetInput.js'
-Vue.directive('reset-input', ResetInput)
+Vue.directive('reset-input', ResetInput(Vue))
 export default {
   name: 'demo',
   data () {
