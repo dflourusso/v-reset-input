@@ -6,7 +6,7 @@ export default {
       vnode.elm.parentElement.style.position = 'relative'
       component.$el.style.display = 'block'
     }
-    el.onblur = () => { setTimeout(() => { component.$el.style.display = 'none' }, 50) }
+    el.onblur = () => { setTimeout(() => { component.$el.style.display = 'none' }, 150) }
 
     let clickHandler = () => {
       el.value = ''
