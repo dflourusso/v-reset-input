@@ -58,10 +58,12 @@ Just overwrite their css class
 
 ```stylus
 .v-reset-input
-  font-size 1.2em
-  color silver
   top 8px
-  right 20px
+  right 25px
+  font-size 1.5em
+  display none
+  &.v-reset-input-active
+    display block
 ```
 
 Author
