@@ -1,7 +1,6 @@
 var component = null
 module.exports = (vue) => {
   return {
-    name: 'reset-input',
     inserted (el, binding, vnode) {
       el.onfocus = () => {
         vnode.elm.parentElement.style.position = 'relative'

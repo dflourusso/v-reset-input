@@ -26,5 +26,17 @@
     "reset-input-vue",
     "v-reset",
     "v-reset-input"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dflourusso/v-reset-input.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dflourusso/v-reset-input/issues"
+  },
+  "homepage": "https://github.com/dflourusso/v-reset-input#readme",
+  "license": {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  }
 }
