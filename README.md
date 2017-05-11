@@ -1,9 +1,14 @@
 v-reset-input
 ==============
 
----
-
 > Reset input directive for Vue.js
+
+<p>
+  <a href="https://www.npmjs.com/package/v-reset-input"><img src="https://img.shields.io/npm/dm/v-reset-input.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/v-reset-input"><img src="https://img.shields.io/npm/v/v-reset-input.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/v-reset-input"><img src="https://img.shields.io/npm/l/v-reset-input.svg" alt="License"></a>
+</p>
+
 
 Installation
 ------------
