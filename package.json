@@ -1,10 +1,13 @@
 {
   "name": "v-reset-input",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Reset input directive for Vue.js",
   "author": "Daniel Fernando Lourusso <daniel@dflourusso.com.br>",
   "main": "dist/v-reset-input.js",
-  "license": "MIT",
+  "license": {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
   "scripts": {
     "dist": "vue build ./src/v-reset-input.js --config ./build.config.js --dist ./dist/ --prod --lib",
     "dist:demo": "vue build ./demo/index.js --config ./demo/build.config.js --dist ./docs/ --prod",
@@ -34,9 +37,5 @@
   "bugs": {
     "url": "https://github.com/dflourusso/v-reset-input/issues"
   },
-  "homepage": "https://github.com/dflourusso/v-reset-input#readme",
-  "license": {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/mit-license.php"
-  }
+  "homepage": "https://github.com/dflourusso/v-reset-input#readme"
 }
