@@ -45,7 +45,7 @@ Vue.use(ResetInput)
 <!-- Include after Vue -->
 <script src="v-reset-input/dist/v-reset-input.js"></script>
 <script>
-  Vue.use(ResetInput)
+  Vue.use(VResetInput)
 </script>
 ```
 
